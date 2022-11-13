@@ -22,7 +22,7 @@ console.log(friends);
 console.log(animals[0]);
 console.log(friends[2]);
 
-animals[0] = "fish"; // go menuvas prviot emlement
+animals[0] = "fish"; // go menuvas prviot element
 console.log(animals)
 
 //da dodavas elementi

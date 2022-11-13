@@ -33,17 +33,17 @@ while( 6 > number) {
 // number = number + 1
 
 
-let num = 0;
+/*let num = 0;
 while(num <= 10){
     console.log(num)
     num++;
-}
+} 
 
 let animals2 = ["Cat", "Dog", "Parrot", "Rabbit", "horse", "goat"];
 
 //LOOP mnogu koristena sintaksa
 let i = 0;
-while(i < animals2.length){ //moze i i <= aniamls2.length -1
+while(i < animals2.length){ //moze i i <= aniamals2.length -1
     console.log(animals2[i])
     i++
 }
@@ -64,3 +64,4 @@ while(i < animals2.length){ //moze i i <= aniamls2.length -1
    for(let i = 1; i < animals2.length; i+=2){
     console.log(animals2[i]);
    }
+   */
