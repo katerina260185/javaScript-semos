@@ -1,7 +1,7 @@
 //zadaca br.1
 
-const words1 = ["katerina", 37, "maja", true, "cat", 12]; //parni
-const words2 = ["javascript", "css", 15, "ana", false, "facebook"]; // neparni
+const words1 = ["katerina", 37, "maja", true, "cat", 12, 17]; //parni
+const words2 = ["javascript", "css", 15, "ana", false, "facebook", 13]; // neparni
 
 let allWords = [];
 
