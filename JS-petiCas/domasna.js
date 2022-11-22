@@ -132,7 +132,6 @@ const books = [
   
 ]
 
-
 books.sort((a, b)=> {
  return a == b ? 0 : a > b ? 1 : -1;
  //ako a i b se isto, se vraka 0, ako a e pogolemo od b, ke zapocne a,b...itn, ako a e pomalo od b, ke odi b,a.... (obratno)
