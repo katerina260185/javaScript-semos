@@ -36,15 +36,15 @@ async function generateUserName () {
     const main = document.createElement("div")
     main.id = "main"
     document.getElementById("profile").append(main)
-    main.style= " width: 100%; height: 300px; background-color:#ccc; border-bottom:1px solid grey;"
+    main.style= " width: 100%; height: 400px; background-color:#ccc; border-bottom:1px solid grey;"
 
     
     const userPic = document.createElement("img")
     userPic.setAttribute("src", "/JS-sedmiCas/woman-g650fe0aec_1920.jpg")
     document.getElementById("main").append(userPic)
     userPic.setAttribute( "width", "200px")
-    userPic.setAttribute( "height", "250px")
-    userPic.style = "border-radius: 50%; margin: 1% 30% 0; padding:50px 20px;"
+    userPic.setAttribute( "height", "200px")
+    userPic.style = "border-radius: 50%; margin: 1% 25% 0; padding:20px 20px;"
 
 
     
@@ -56,7 +56,7 @@ async function generateUserName () {
     const infoUser = document.createElement("div")
     infoUser.id = "divInfoUser"
     document.body.appendChild(infoUser)
-    infoUser.style = "width:30%; height:200px; background-color:#ccc; margin: 0% 35%; "
+    infoUser.style = "width:30%; height:300px; background-color:#ccc; margin: 0% 35%; "
     
     const userEmail = document.createElement("h3")
     userEmail.innerText = `Email: ${data.email}`
@@ -78,7 +78,7 @@ async function generateUserName () {
     document.getElementById("divInfoUser").append(userWebsite)
     userWebsite.style="color: rgb(5, 93, 58); text-align: left; font-weight: bold; font-size: 15px; padding:10px 20px; margin: 0 20px; "
 
-
+body.style = "margin:0; padding:0; box-sizing:border-box;"
    
 }
 
